@@ -425,6 +425,10 @@ body {
   margin-top: 4vh;
 }
 
+.credits {
+  float: right;
+}
+
 ::selection {
   color: var(--bg-color);
   background: var(--text-color);
