@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tasin Ishmam</title>
+    <link>https://tasinishmam.com/posts/</link>
+    <description>Recent content in Posts on Tasin Ishmam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tasinishmam.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Contact</title>
+      <link>https://tasinishmam.com/posts/hello-world/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tasinishmam.com/posts/hello-world/</guid>
+      <description>print(&amp;#34;Hello Internet&amp;#34;) Welcome to my humble corner of the internet. This blog about me and my passions. I&amp;rsquo;l talk about technology, software development, machine learning, academia and other topics I find interesting.
+So, it only makes sense to start by saying how this site came to life. I&amp;rsquo;ve been thinking about starting a blog for a while now. I&amp;rsquo;m a child of the internet, I grew up reading all sorts of interesting things on other people&amp;rsquo;s website.</description>
+    </item>
+    
+  </channel>
+</rss>
