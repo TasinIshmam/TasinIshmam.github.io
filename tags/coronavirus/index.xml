@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coronavirus on Tasin Ishmam</title>
+    <link>https://tasinishmam.com/tags/coronavirus/</link>
+    <description>Recent content in coronavirus on Tasin Ishmam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Mar 2020 10:46:13 +0600</lastBuildDate>
+    
+	<atom:link href="https://tasinishmam.com/tags/coronavirus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reliable Information Sources on Coronavirus</title>
+      <link>https://tasinishmam.com/posts/coronavirus-resouces/</link>
+      <pubDate>Sun, 15 Mar 2020 10:46:13 +0600</pubDate>
+      
+      <guid>https://tasinishmam.com/posts/coronavirus-resouces/</guid>
+      <description>There is a torrent of misinformation on the internet about the disease itself, the extent of the infection and government actions taken. As a community if we are not responsible in the information we share, we risk doing more harm than good. In order to get accurate information, we need to use reliable sources and fact-check all information.
+With that in mind, this is a curated list of information sources to get one up to date on the COVID-19 situation, both locally and globally.</description>
+    </item>
+    
+  </channel>
+</rss>

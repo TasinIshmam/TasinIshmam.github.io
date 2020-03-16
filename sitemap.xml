@@ -1,56 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://tasinishmam.com/posts/first-contact/</loc>
-    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/tags/hugo/</loc>
-    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/tags/personal/</loc>
-    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/posts/</loc>
-    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/tags/</loc>
-    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/</loc>
-    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/tags/web/</loc>
-    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/series/</loc>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://tasinishmam.com/bn/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://tasinishmam.com/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-09-18T10:46:13+06:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>

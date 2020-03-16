@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tasinishmam.com/posts/first-contact/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/hugo/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/personal/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/posts/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/web/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/series/"
+                />
+  </url>
+  
+</urlset>
