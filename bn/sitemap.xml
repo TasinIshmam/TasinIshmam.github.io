@@ -3,6 +3,126 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tasinishmam.com/bn/tags/bangladesh/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/tags/bangladesh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/tags/bangladesh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/bn/tags/coronavirus/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/tags/coronavirus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/tags/coronavirus/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/bn/tags/covid-19/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/tags/covid-19/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/tags/covid-19/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/bn/tags/pandemic/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/tags/pandemic/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/tags/pandemic/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/bn/posts/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/bn/tags/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/bn/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/bn/posts/coronavirus-resouces/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/posts/coronavirus-resouces/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/posts/coronavirus-resouces/"
+                />
+  </url>
+  
+  <url>
     <loc>https://tasinishmam.com/bn/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -41,34 +161,6 @@
                 rel="alternate"
                 hreflang="bn"
                 href="https://tasinishmam.com/bn/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/bn/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tasinishmam.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="bn"
-                href="https://tasinishmam.com/bn/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/bn/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tasinishmam.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="bn"
-                href="https://tasinishmam.com/bn/"
                 />
   </url>
   
