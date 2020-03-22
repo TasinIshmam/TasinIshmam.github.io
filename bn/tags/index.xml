@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Tasin Ishmam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Mar 2020 15:40:13 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2020 21:00:00 +0600</lastBuildDate>
     
 	<atom:link href="https://tasinishmam.com/bn/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,25 @@
     <item>
       <title>bangladesh</title>
       <link>https://tasinishmam.com/bn/tags/bangladesh/</link>
-      <pubDate>Mon, 16 Mar 2020 15:40:13 +0600</pubDate>
+      <pubDate>Sun, 22 Mar 2020 21:00:00 +0600</pubDate>
       
       <guid>https://tasinishmam.com/bn/tags/bangladesh/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>coronainbangladesh</title>
+      <link>https://tasinishmam.com/bn/tags/coronainbangladesh/</link>
+      <pubDate>Sun, 22 Mar 2020 21:00:00 +0600</pubDate>
+      
+      <guid>https://tasinishmam.com/bn/tags/coronainbangladesh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>coronavirus</title>
       <link>https://tasinishmam.com/bn/tags/coronavirus/</link>
-      <pubDate>Mon, 16 Mar 2020 15:40:13 +0600</pubDate>
+      <pubDate>Sun, 22 Mar 2020 21:00:00 +0600</pubDate>
       
       <guid>https://tasinishmam.com/bn/tags/coronavirus/</guid>
       <description></description>
@@ -32,7 +41,7 @@
     <item>
       <title>COVID-19</title>
       <link>https://tasinishmam.com/bn/tags/covid-19/</link>
-      <pubDate>Mon, 16 Mar 2020 15:40:13 +0600</pubDate>
+      <pubDate>Sun, 22 Mar 2020 21:00:00 +0600</pubDate>
       
       <guid>https://tasinishmam.com/bn/tags/covid-19/</guid>
       <description></description>
@@ -41,9 +50,18 @@
     <item>
       <title>pandemic</title>
       <link>https://tasinishmam.com/bn/tags/pandemic/</link>
-      <pubDate>Mon, 16 Mar 2020 15:40:13 +0600</pubDate>
+      <pubDate>Sun, 22 Mar 2020 21:00:00 +0600</pubDate>
       
       <guid>https://tasinishmam.com/bn/tags/pandemic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://tasinishmam.com/bn/tags/web/</link>
+      <pubDate>Sun, 22 Mar 2020 21:00:00 +0600</pubDate>
+      
+      <guid>https://tasinishmam.com/bn/tags/web/</guid>
       <description></description>
     </item>
     

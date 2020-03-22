@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>web on Tasin Ishmam</title>
-    <link>https://tasinishmam.com/tags/web/</link>
-    <description>Recent content in web on Tasin Ishmam</description>
+    <title>coronainbangladesh on Tasin Ishmam</title>
+    <link>https://tasinishmam.com/tags/coronainbangladesh/</link>
+    <description>Recent content in coronainbangladesh on Tasin Ishmam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Mar 2020 21:00:00 +0600</lastBuildDate>
     
-	<atom:link href="https://tasinishmam.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tasinishmam.com/tags/coronainbangladesh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>I&amp;rsquo;m happy to announce the launch of our website, coronainbangladesh.com.
 The objective behind this website was to increase awareness and present reliable infomration about the novel Coronavirus (COVID-19) outbreak in Bangladesh. Everything you need to know about the coronavirus outbreak, in one place.
 The novel coronavirus (2019-nCoV) outbreak has rapidly turned into a pandemic. Ever since breaking out in Wuhan, the capital city of Hubei province, China, it has spread to many countries of the world.</description>
-    </item>
-    
-    <item>
-      <title>First Contact</title>
-      <link>https://tasinishmam.com/posts/first-contact/</link>
-      <pubDate>Wed, 18 Sep 2019 10:46:13 +0600</pubDate>
-      
-      <guid>https://tasinishmam.com/posts/first-contact/</guid>
-      <description>print(&amp;#34;Hello Internet&amp;#34;) Welcome to my humble corner of the internet. This blog is about me and my passions. I&amp;rsquo;l talk about technology, software development, machine learning, academia and other topics I find interesting.
-So, it only makes sense to start by saying how this site came to life. I&amp;rsquo;ve been thinking about starting a blog for a while now. When I was a child I was a prolific poster in a lot of online communities, forums and review sites.</description>
     </item>
     
   </channel>

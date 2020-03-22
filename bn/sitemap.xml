@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://tasinishmam.com/bn/tags/bangladesh/</loc>
-    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,8 +18,23 @@
   </url>
   
   <url>
+    <loc>https://tasinishmam.com/bn/tags/coronainbangladesh/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/tags/coronainbangladesh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/tags/coronainbangladesh/"
+                />
+  </url>
+  
+  <url>
     <loc>https://tasinishmam.com/bn/tags/coronavirus/</loc>
-    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,7 +49,7 @@
   
   <url>
     <loc>https://tasinishmam.com/bn/tags/covid-19/</loc>
-    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -49,7 +64,7 @@
   
   <url>
     <loc>https://tasinishmam.com/bn/tags/pandemic/</loc>
-    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -64,7 +79,7 @@
   
   <url>
     <loc>https://tasinishmam.com/bn/posts/</loc>
-    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -79,7 +94,7 @@
   
   <url>
     <loc>https://tasinishmam.com/bn/tags/</loc>
-    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -94,7 +109,7 @@
   
   <url>
     <loc>https://tasinishmam.com/bn/</loc>
-    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -104,6 +119,36 @@
                 rel="alternate"
                 hreflang="bn"
                 href="https://tasinishmam.com/bn/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/bn/tags/web/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/tags/web/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/bn/posts/coronainbangladesh-launch/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tasinishmam.com/posts/coronainbangladesh-launch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://tasinishmam.com/bn/posts/coronainbangladesh-launch/"
                 />
   </url>
   
