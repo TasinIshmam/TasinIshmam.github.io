@@ -54,6 +54,16 @@ So, it only makes sense to start by saying how this site came to life. I&amp;rsq
     </item>
     
     <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://tasinishmam.com/posts/hugo-template-primer/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tasinishmam.com/posts/hugo-template-primer/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
       <title>About Me</title>
       <link>https://tasinishmam.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

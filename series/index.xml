@@ -6,9 +6,28 @@
     <description>Recent content in Series on Tasin Ishmam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tasinishmam.com/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://tasinishmam.com/series/getting-started/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tasinishmam.com/series/getting-started/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://tasinishmam.com/series/hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tasinishmam.com/series/hugo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
