@@ -1,18 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://tasinishmam.com/bn/sitemap.xml</loc>
-		
-	   	<lastmod>2020-03-22T21:00:00+06:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://tasinishmam.com/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-03-22T21:00:00+06:00</lastmod>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/bangladesh/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/coronainbangladesh/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/coronavirus/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/covid-19/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/posts/coronainbangladesh-launch/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/pandemic/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/posts/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/web/</loc>
+    <lastmod>2020-03-22T21:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/coronavirus-information-bot-privacy-policy/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/posts/coronavirus-resouces/</loc>
+    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/posts/first-contact/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/hugo/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/personal/</loc>
+    <lastmod>2019-09-18T10:46:13+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/series/</loc>
+  </url>
+  
+</urlset>
