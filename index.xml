@@ -64,5 +64,17 @@ I&amp;rsquo;m an undergraduate student majoring in Computer Science &amp;amp; En
 In my spare time, I like to travel and take photographs. I also love books, film and podcasts.</description>
     </item>
     
+    <item>
+      <title>Projects</title>
+      <link>https://tasinishmam.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tasinishmam.com/projects/</guid>
+      <description>Machine Learning Projects Web Projects Academic Projects Android Projects   Machine Learning Projects    Sensor Fusion for 3D Object Detection Role: Research
+Technology: Deep Learning, Tensorflow, CNN, PointNet
+Description: We&amp;rsquo;re trying to improve existing technologies for 3D object detection using sensor fusion by combining 3D Lidar and 2D image data for better inference. Work is still in progress. Team of three members.
+    Web Projects    Corona In Bangladesh Role: Backend, Deployment and Server Maintaince.</description>
+    </item>
+    
   </channel>
 </rss>
