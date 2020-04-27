@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>advice on Tasin Ishmam</title>
+    <link>https://tasinishmam.com/tags/advice/</link>
+    <description>Recent content in advice on Tasin Ishmam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 27 Apr 2020 10:46:13 +0600</lastBuildDate>
+    
+	<atom:link href="https://tasinishmam.com/tags/advice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Corona in Bangladesh - Five Lessons From  Our First Public Website</title>
+      <link>https://tasinishmam.com/posts/lessons-from-first-public-production-website/</link>
+      <pubDate>Mon, 27 Apr 2020 10:46:13 +0600</pubDate>
+      
+      <guid>https://tasinishmam.com/posts/lessons-from-first-public-production-website/</guid>
+      <description>Last month we launched our website coronainbangladesh. The response was pretty great. In the span of a month, we&amp;rsquo;ve received over 50,000 visitors, news coverage and an acknowledgemet in the official government website. However, having such a high amount of traffic comes with it&amp;rsquo;s own set of challenges. I&amp;rsquo;ve had previous experience developing production systems, but those were mainly Bots, Business integrations and CMS sites which don&amp;rsquo;t receive a fraction of the traffic.</description>
+    </item>
+    
+  </channel>
+</rss>
