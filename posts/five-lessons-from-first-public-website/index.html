@@ -18,7 +18,7 @@
           <meta property="og:title" content="Five Lessons From Releasing Our First Public Website &middot; Tasin Ishmam"/>
           <meta property="og:description" content="Looking back at some of the lessons we learned while building and deploying coronainbangladesh.com"/>
           <meta property="og:site_name" content="Tasin Ishmam"/>
-          <meta property="og:url" content="https://tasinishmam.com/posts/lessons-from-first-public-production-website/"/>
+          <meta property="og:url" content="https://tasinishmam.com/posts/five-lessons-from-first-public-website/"/>
           <meta property="og:locale" content="en">
             
           <meta property="og:image" content="http://tasinishmam.com/images/coronainbangladesh/ogimage.jpg"/>
@@ -26,14 +26,14 @@
           
           <meta property="og:type" content="website"/>
     
-      <base href="https://tasinishmam.com/posts/lessons-from-first-public-production-website/">
+      <base href="https://tasinishmam.com/posts/five-lessons-from-first-public-website/">
     
     <title>
   Five Lessons From Releasing Our First Public Website · Tasin Ishmam
 </title>
 
     
-      <link rel="canonical" href="https://tasinishmam.com/posts/lessons-from-first-public-production-website/">
+      <link rel="canonical" href="https://tasinishmam.com/posts/five-lessons-from-first-public-website/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -131,11 +131,11 @@
       <span class="separator">•</span>
     <a href="https://tasinishmam.com/tags/node/">node</a>
       <span class="separator">•</span>
+    <a href="https://tasinishmam.com/tags/express/">express</a>
+      <span class="separator">•</span>
     <a href="https://tasinishmam.com/tags/google-cloud/">google cloud</a>
       <span class="separator">•</span>
     <a href="https://tasinishmam.com/tags/heroku/">heroku</a>
-      <span class="separator">•</span>
-    <a href="https://tasinishmam.com/tags/express/">express</a>
       <span class="separator">•</span>
     <a href="https://tasinishmam.com/tags/coronainbangladesh/">coronainbangladesh</a></div>
 
@@ -148,9 +148,9 @@
         
         
 
-<p>Last month we launched our website <a href="https://coronainbangladesh.com/">coronainbangladesh</a>. In the span of a month, we&rsquo;ve received over 50,000 visitors, <a href="https://www.thedailystar.net/toggle/news/mythbuster-circulating-accurate-information-regarding-coronavirus-through-games-1887382">news coverage</a> and an acknowledgemet in the official <a href="https://corona.gov.bd/websites">Bangladesh Government website</a>. However, having such a high amount of traffic comes with it&rsquo;s own set of challenges. I&rsquo;ve had previous experience developing production systems, but those were mainly Bots, Business integrations and CMS sites which don&rsquo;t receive a fraction of the traffic this had.</p>
+<p>Last month we launched our website <a href="https://coronainbangladesh.com/">coronainbangladesh</a>. In the span of a month, we&rsquo;ve received over 50,000 visitors, <a href="https://www.thedailystar.net/toggle/news/mythbuster-circulating-accurate-information-regarding-coronavirus-through-games-1887382">news coverage</a> and an acknowledgement in the official <a href="https://corona.gov.bd/websites">Bangladesh Government website</a>. However, having such a high amount of traffic comes with it&rsquo;s own set of challenges. I&rsquo;ve had previous experience developing production systems, but those were mainly Bots, Business integrations and CMS sites which don&rsquo;t receive a fraction of the traffic this had.</p>
 
-<p>This article is a series of lessons I learnt throughout the development and maintainance of coronainbangladesh. While reading, do keep in mind this guide is meant for novices and is written by one.<br />
+<p>This article is a series of lessons I learnt throughout the development and maintenance of coronainbangladesh. While reading, do keep in mind this guide is meant for novices.<br />
 So let&rsquo;s begin</p>
 
 <h5 id="lesson-1-if-you-don-t-have-previous-experience-use-a-platform-as-a-service">Lesson #1 - If you don&rsquo;t have previous experience, use a Platform as a Service</h5>
@@ -167,13 +167,13 @@ If you&rsquo;re a beginner and don&rsquo;t know what&rsquo;s the best way to get
 <li>Multiple deployment slots - Test your code in a &ldquo;production&rdquo; environment before exposing it to the the pubic</li>
 </ul>
 
-<p>Now PaaS aren&rsquo;t a silver bullet, they have their own set of problems. They usually cost more and aren&rsquo;t as easily customizable and flexible as a conventionnal Virtual Machine. However, they can serve as a really useful set of training wheels when you&rsquo;re still learning the ropes.</p>
+<p>Now PaaS aren&rsquo;t a silver bullet, they have their own set of problems. They usually cost more and aren&rsquo;t as easily customizable and flexible as a conventional Virtual Machine. However, they can serve as a really useful set of training wheels when you&rsquo;re still learning the ropes.</p>
 
 <h5 id="lesson-2-code-like-you-re-being-attacked-because-you-probably-are">Lesson #2 - Code like you&rsquo;re being attacked (because you probably are)</h5>
 
 <p>The first time we got DDoS&rsquo;d was on day 5. I have no idea why anyone would want to attack something as benign as a our website, but there it was. The chances of your website being attacked or exploited increases with the amount of traffic it receives. So security should be a first priority from the very beginning of development, not something done as an afterthought.</p>
 
-<p>First start with the basics - Securing your API endpoints, use SSL, hash all user passwords, turning on CORS etc. You can find great framework specific security best practises all over the internet. Go through them before going to production.
+<p>First start with the basics - Securing your API endpoints, use SSL, hash all user passwords, turning on CORS etc. You can find great framework specific security best practices all over the internet. Go through them before going to production.
 We followed <a href="https://expressjs.com/en/advanced/best-practice-security.html">this checklist</a> on the express official website.</p>
 
 <h5 id="lesson-3-constantly-monitor-your-server-resources">Lesson #3 - Constantly monitor your server resources</h5>
@@ -184,19 +184,19 @@ We followed <a href="https://expressjs.com/en/advanced/best-practice-security.ht
 
 <h5 id="lesson-4-keep-the-scope-of-your-project-in-mind">Lesson #4 - Keep the scope of your project in mind</h5>
 
-<p>Decision you make should always consider the scope and scale of your project. Just because something make&rsquo;s sense for Amazon does not mean it will also make sense for you. There is no one size fits all solution in software development. Over engieering can cause significant losses in time, money and resources.</p>
+<p>Decision you make should always consider the scope and scale of your project. Just because something make&rsquo;s sense for Amazon does not mean it will also make sense for you. There is no one size fits all solution in software development. Over engineering can cause significant losses in time, money and resources.</p>
 
-<p>In our case, when we needed to add a cache, everyone unanimously decided we should use redis. There wasn&rsquo;t any real thought behind it, it&rsquo;s just what we had all read on the internet. However, for our use case deplying a full fledged redis server was complete and utter overkill. It was costing us more than our web and database server combined and we weren&rsquo;t even using it to 1% of it&rsquo;s full capacity/bandwidth. A few days later, we decided to ditch it completely and just use a super simple in-memory caching library from npm. This worked perfectly, was easier to use and it was <em>completely free</em>.</p>
+<p>In our case, when we needed to add a cache, everyone unanimously decided we should use redis. There wasn&rsquo;t any real thought behind it, it&rsquo;s just what we had all read on the internet. However, for our use case depolying a full fledged redis server was complete and utter overkill. It was costing us more than our web and database server combined and we weren&rsquo;t even using it to 1% of it&rsquo;s full capacity/bandwidth. A few days later, we decided to ditch it completely and just use a super simple in-memory caching library from npm. This worked perfectly, was easier to use and it was <em>completely free</em>.</p>
 
 <h5 id="lesson-5-test-test-and-test-some-more">Lesson #5 - Test, Test and Test some more</h5>
 
-<p>I&rsquo;l start with a confession, I don&rsquo;t like writing tests. It&rsquo;s painstaking, repetetive and utterly boring. So naturally, I didn&rsquo;t write any tests when we launched our website. And I got screwed. Weird bugs were popping up, dependencies were breaking and these problems manisfeted themselves in the most unsuspecting of ways. The source of the bug is never in the first place you look. I had to spend hours chasing down trivial issues that would have been immidiately apparent if I had a comprehensive test suite.</p>
+<p>I&rsquo;l start with a confession, I don&rsquo;t like writing tests. It&rsquo;s painstaking, repetitive and utterly boring. So naturally, I didn&rsquo;t write any tests when we launched our website. And I got screwed. Weird bugs were popping up, dependencies were breaking and these problems manifested themselves in the most unsuspecting of ways. The source of the bug is never in the first place you look. I had to spend hours chasing down trivial issues that would have been immediately apparent if we had a comprehensive test suite.</p>
 
 <p>I understand you&rsquo;re working with limited time and resources. But you will soon realize that, writing tests actually saves you time in the long run. It&rsquo;s an investment that ends up paying massive dividends. But if you really don&rsquo;t have time to write a comprehensive test suite,  prioritize and start with API (Component) testing. This is the easiest way to write and provides more coverage than unit testing (you may even craft API tests without code using tools like <a href="https://blog.postman.com/writing-tests-in-postman//">Postman</a>).</p>
 
 <h5 id="conclusion">Conclusion</h5>
 
-<p>When you&rsquo;re trying to deploy your first website, it can feel quite overwhelming. There&rsquo;s dozens of things you have to do perfectly. Worst of all, everyone kind of assumes that you already know all of this. I just want you to know that feeling is totally normal. You will make mistakes, but you&rsquo;l also have the oppurtunity to learn from those mistakes.</p>
+<p>When you&rsquo;re trying to deploy your first website, it can feel quite overwhelming. There&rsquo;s dozens of things you have to do perfectly. Worst of all, everyone kind of assumes that you already know all of this. I just want you to know that feeling is totally normal. You will make mistakes, but you&rsquo;l also have the opportunity to learn from those mistakes.</p>
 
 <p>People learn best from experience. So want to become a better developer? Go out there and make beautiful random things. See them break, and then fix them. It&rsquo;s a brave new world!</p>
 
