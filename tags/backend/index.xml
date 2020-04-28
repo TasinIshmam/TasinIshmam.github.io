@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>backend on Tasin Ishmam</title>
+    <link>https://tasinishmam.com/tags/backend/</link>
+    <description>Recent content in backend on Tasin Ishmam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Apr 2020 16:00:13 +0600</lastBuildDate>
+    
+	<atom:link href="https://tasinishmam.com/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Five Lessons From Releasing Our First Public Website</title>
+      <link>https://tasinishmam.com/posts/five-lessons-from-first-public-website/</link>
+      <pubDate>Tue, 28 Apr 2020 16:00:13 +0600</pubDate>
+      
+      <guid>https://tasinishmam.com/posts/five-lessons-from-first-public-website/</guid>
+      <description>Last month we launched our website coronainbangladesh. In the span of a month, we&amp;rsquo;ve received over 50,000 visitors, news coverage and an acknowledgement in the official Bangladesh Government website. However, having such a high amount of traffic comes with it&amp;rsquo;s own set of challenges. I&amp;rsquo;ve had previous experience developing production systems, but those were mainly Bots, Business integrations and CMS sites which don&amp;rsquo;t receive a fraction of the traffic this had.</description>
+    </item>
+    
+  </channel>
+</rss>
