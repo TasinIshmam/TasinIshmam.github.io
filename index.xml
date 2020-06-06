@@ -6,10 +6,20 @@
     <description>Recent content on Tasin Ishmam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2020 16:00:13 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0600</lastBuildDate>
     
 	<atom:link href="https://tasinishmam.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Foobar Challenge</title>
+      <link>https://tasinishmam.com/posts/google-foobar-challenge/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0600</pubDate>
+      
+      <guid>https://tasinishmam.com/posts/google-foobar-challenge/</guid>
+      <description>I&amp;rsquo;ve recently finished Google&amp;rsquo;s coding challenge, Foobar. This has honestly been a really fun programming game, and I wanted to share my experience!
+What is it? Foobar is a invite only coding challenge hosted by google. The prize for completing? A chance to be recruited by google. Once you pass a certain level, you have the option to submit your solutions and personal info to a google recruiter. Getting an interview isn&amp;rsquo;t guaranteed however and not everyone gets a response from the recruiters.</description>
+    </item>
     
     <item>
       <title>Five Lessons From Releasing Our First Public Website</title>
@@ -69,8 +79,8 @@ So, it only makes sense to start by saying how this site came to life. I&amp;rsq
       
       <guid>https://tasinishmam.com/about/</guid>
       <description>Hi, my name is Tasin Ishmam. I&amp;rsquo;m from Dhaka, Bangladesh.
-I&amp;rsquo;m an undergraduate student majoring in Computer Science &amp;amp; Engineering at BUET. My interests are in backend Web Development, Mobile Application Development &amp;amp; Machine Learning. I&amp;rsquo;m currently engaged in a research project which applies deep learning in object detection for Autonomous Vehicles.
-In my spare time, I like to travel and take photographs. I also love books, film and podcasts.</description>
+I&amp;rsquo;m an undergraduate student majoring in Computer Science &amp;amp; Engineering at BUET. My interests are in backend Web Development, Mobile Application Development &amp;amp; Machine Learning. I&amp;rsquo;m currently engaged in a research project which applies deep learning in object detection for Autonomous Vehicles. For more info, check out my resume.
+In my spare time, I like to travel and take photographs.</description>
     </item>
     
     <item>
@@ -93,7 +103,7 @@ Description: We&amp;rsquo;re trying to improve existing technologies for 3D obje
       <guid>https://tasinishmam.com/resume/</guid>
       <description>h5 { line-height: .1em; }
  Undergraduate student with backend Web &amp;amp; Android Development experience. Interested in Machine Learning &amp;amp; Software Engineering.
-  Skills    Languages: Python, Javascript, Java, C++ Frameworks: Pytorch, Keras, NodeJS (Express) Tools: Git, Docker, Mocha Platforms: Azure, Facebook Developer Platform, Heroku, Google Cloud Platform
+  Skills    Languages: Python, Javascript, Java, C++ Frameworks: Pytorch, Keras, NodeJS (Express) Tools: Git, Docker, Bash, Unit Testing (Mocha, Pytest) Platforms: Azure, Facebook Developer Platform, Heroku, Google Cloud Platform
     Education   Bangladesh University of Engineering and Technology
 B.Sc in Computer Science &amp;amp; Engineering</description>
     </item>
