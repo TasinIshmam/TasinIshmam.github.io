@@ -57,7 +57,7 @@
     <link rel="icon" type="image/png" href="https://tasinishmam.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://tasinishmam.com/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.57.1" />
+    <meta name="generator" content="Hugo 0.74.0" />
   </head>
 
   
@@ -142,40 +142,27 @@
         
           <img src='https://tasinishmam.com/images/foobar/featured_image.png' alt="Featured image"/>
         
-        
-
-<p>I&rsquo;ve recently finished Google&rsquo;s coding challenge, <a href="https://foobar.withgoogle.com/">Foobar</a>. This has honestly been a really fun programming game, and I wanted to share my experience!</p>
-
+        <p>I&rsquo;ve recently finished Google&rsquo;s coding challenge, <a href="https://foobar.withgoogle.com/">Foobar</a>. This has honestly been a really fun programming game, and I wanted to share my experience!</p>
 <h5 id="what-is-it">What is it?</h5>
-
 <p>Foobar is a invite only coding challenge hosted by google. The prize for completing? A chance to be recruited. Once you pass a certain level, you have the option to submit your solutions and personal info to a google recruiter. Getting an interview isn&rsquo;t guaranteed however and not everyone gets a response from the recruiters. However I&rsquo;d recommend not to focus on that too much and just have fun. If you really want to apply to Google, there&rsquo;s usually easier ways.</p>
-
 <h5 id="great-where-do-i-sign-up">Great, where do I sign up?</h5>
-
 <p>Since this is invite only, directly going to the <a href="https://foobar.withgoogle.com/">foobar website</a> won&rsquo;t help as there&rsquo;s no registration option. There&rsquo;s two ways you can get an invite.</p>
-
 <ol>
 <li>Getting an invite directly from google. This actually isn&rsquo;t super hard, you need to search for certain keywords like &ldquo;arraylist java&rdquo; or &ldquo;mutex lock&rdquo; on google multiple times to trigger the invite mechanism. The full mechanism is explained <a href="https://codeforces.com/blog/entry/50841">here</a>.
-<img src="https://tasinishmam.com/images/foobar/up_for_a_challenge.png#center" alt="image" />
-<div align="center">
-<font size="-4"> Foobar invitation prompt on google search </font>
-</div></li>
-<li>Get an invite directly from someone who is already participating. Each participant, gets a maximum of two invites upon completion of certain levels in the challenge. So if you know someone who&rsquo;s already doing the challenge, you could ask them as well.</li>
+<img src="https://tasinishmam.com/images/foobar/up_for_a_challenge.png#center" alt="image"></li>
 </ol>
-
+<div align="center">
+  <font size="-4"> Foobar invitation prompt on google search </font>
+</div>
+2. Get an invite directly from someone who is already participating. Each participant, gets a maximum of two invites upon completion of certain levels in the challenge. So if you know someone who's already doing the challenge, you could ask them as well. 
 <h5 id="the-story-so-far">The Story So Far</h5>
-
 <p>Upon starting you are greeted with a unix shell  interface. You can interact with the shell using standard unix commands like &ldquo;ls&rdquo;, &ldquo;cat&rdquo; and &ldquo;cd&rdquo;. You find a journal entry at the very beginning which explains the situation to you.</p>
-
-<p><img src="https://tasinishmam.com/images/foobar/starting.png#center" alt="image" />
+<p><img src="https://tasinishmam.com/images/foobar/starting.png#center" alt="image"></p>
 <div align="center">
   <font size="-4"> A bunny themed Star Wars fanfic story that you have to code your way through. Sounds too good to be true ;)</font>
-</div></p>
-
+</div>
 <h5 id="the-programming-challenges">The programming challenges</h5>
-
 <p>In order to progress in your mission you need to perform a slew of programming challenges, from fixing Commander Lambda&rsquo;s wardrobe to rescuing bunny prisoners from the space station. These challenges are divided into 5 progressively more difficult levels. The tasks are similar to ones you find in competitive programming websites. Foobar especially has a lot of Dynamic Programming and math problems. A brief description of the levels:</p>
-
 <ol>
 <li><strong>Level 1</strong>: 1 problem.</li>
 <li><strong>Level 2</strong>: 2 problems. Upon completion, invite a friend.</li>
@@ -183,13 +170,10 @@
 <li><strong>Level 4</strong>: 2 problems. Upon completion, invite another friend.</li>
 <li><strong>Level 5</strong>: 1 final problem.</li>
 </ol>
-
 <p>The solutions can be submitted in Java and Python 2.7 (yikes!). There&rsquo;s even an integrated code editor you can use. In my experience, the difficulty starts ramping up around level 3. However, difficulties tend to vary even amongst problems from the same level. One of my level 3 problems was about Markov Chains and it took me over 2 days to finish, whereas I finished the rest of level 3 in a few hours.</p>
-
 <h5 id="grand-finale">Grand Finale</h5>
-
 <p>At last, you&rsquo;ve bested Commander Lambda&rsquo;s evil plans, rescued all the bunnies and saved the galaxy! You are now greeted with a mysterious encrypted message. What could it be?
-<img src="https://tasinishmam.com/images/foobar/encrypted.png#center" alt="image" />
+<img src="https://tasinishmam.com/images/foobar/encrypted.png#center" alt="image">
 After some next level <del>hacking</del> googling, I found out it&rsquo;s a simple XOR encryption. The message is XOR&rsquo;d with my google username and then encoded to base64. So you can decrypt it by reversing this process. Let&rsquo;s use a python script to do just that</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python3" data-lang="python3"><span style="color:#007f7f"># Script source: https://vitaminac.github.io/Google-Foobar-Decrypt-Message/</span>
 <span style="color:#fff;font-weight:bold">import</span> base64
@@ -200,26 +184,26 @@ key = <span style="color:#fff;font-weight:bold">bytes</span>(<span style="color:
 <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#fff;font-weight:bold">bytes</span>(a ^ b <span style="color:#fff;font-weight:bold">for</span> a, b in <span style="color:#fff;font-weight:bold">zip</span>(base64.b64decode(message), cycle(key))))
 
 <span style="color:#007f7f"># Output: </span>
-<span style="color:#007f7f"># {&#39;success&#39; : &#39;great&#39;, &#39;colleague&#39; : &#39;esteemed&#39;, &#39;efforts&#39; : &#39;incredible&#39;, &#39;achievement&#39; : &#39;unlocked&#39;, &#39;rabbits&#39; : &#39;safe&#39;, &#39;foo&#39; : &#39;win!&#39;}</span></code></pre></div>
-<h5 id="advice">Advice</h5>
-
+<span style="color:#007f7f"># {&#39;success&#39; : &#39;great&#39;, &#39;colleague&#39; : &#39;esteemed&#39;, &#39;efforts&#39; : &#39;incredible&#39;, &#39;achievement&#39; : &#39;unlocked&#39;, &#39;rabbits&#39; : &#39;safe&#39;, &#39;foo&#39; : &#39;win!&#39;}</span>
+</code></pre></div><h5 id="advice">Advice</h5>
 <ul>
-<li><p><strong>Take your time</strong>. Google gives you plenty of time to finish each problem (Over 20 days in case of the level 5 problem). So there&rsquo;s no need to hurry, research the problems thoroughly and design a optimized solution.</p></li>
-
-<li><p><strong>Know thy standard library</strong>. For a lot of the combinatorics type problems, the python standard library was absolutely godsend. Don&rsquo;t code up functions that are already provided by Python/Java&rsquo;s standard library.</p></li>
-
-<li><p><strong>Take a break between problems</strong> There&rsquo;s no time restriction between problems, so you can take as much time as you want before requesting a new problem. Some of these problems need a lot of time to finish, so don&rsquo;t rush in requesting new problems unless you&rsquo;re sure you have the spare time to invest on it.</p></li>
-
-<li><p><strong>Do Foobar to learn, not for a job</strong> Foobar probably isn&rsquo;t the most efficient way to get a interview at google. It&rsquo;s completely uncertain if and when a recruiter will respond. So instead of worrying about that, do Foobar to learn, that way you&rsquo;ll be under a lot less pressure.</p></li>
+<li>
+<p><strong>Take your time</strong>. Google gives you plenty of time to finish each problem (Over 20 days in case of the level 5 problem). So there&rsquo;s no need to hurry, research the problems thoroughly and design a optimized solution.</p>
+</li>
+<li>
+<p><strong>Know thy standard library</strong>. For a lot of the combinatorics type problems, the python standard library was absolutely godsend. Don&rsquo;t code up functions that are already provided by Python/Java&rsquo;s standard library.</p>
+</li>
+<li>
+<p><strong>Take a break between problems</strong> There&rsquo;s no time restriction between problems, so you can take as much time as you want before requesting a new problem. Some of these problems need a lot of time to finish, so don&rsquo;t rush in requesting new problems unless you&rsquo;re sure you have the spare time to invest on it.</p>
+</li>
+<li>
+<p><strong>Do Foobar to learn, not for a job</strong> Foobar probably isn&rsquo;t the most efficient way to get a interview at google. It&rsquo;s completely uncertain if and when a recruiter will respond. So instead of worrying about that, do Foobar to learn, that way you&rsquo;ll be under a lot less pressure.</p>
+</li>
 </ul>
-
 <h5 id="conclusion">Conclusion</h5>
-
 <p>Foobar is a great way to dip your toes into the world of programmatic problem solving. The whole thing is set up in a way so that you can learn as you go. I personally learnt a lot about Markov Chains, Backtracking and Cellular automata while doing these problems.</p>
-
 <p>And if you need some more motivation, here are all the bunnies you&rsquo;ll be rescuing ;)</p>
-
-<p><img src="https://tasinishmam.com/images/foobar/dancing_bunny.gif#center" alt="image" /></p>
+<p><img src="https://tasinishmam.com/images/foobar/dancing_bunny.gif#center" alt="image"></p>
 
       </div>
 

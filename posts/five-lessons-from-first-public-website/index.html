@@ -57,7 +57,7 @@
     <link rel="icon" type="image/png" href="https://tasinishmam.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://tasinishmam.com/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.57.1" />
+    <meta name="generator" content="Hugo 0.74.0" />
   </head>
 
   
@@ -146,62 +146,38 @@
         
           <img src='https://tasinishmam.com/images/coronainbangladesh/header.png' alt="Featured image"/>
         
-        
-
-<p>Last month we launched our website <a href="https://coronainbangladesh.com/">coronainbangladesh</a>. In the span of a month, we&rsquo;ve received over 50,000 visitors, <a href="https://www.thedailystar.net/toggle/news/mythbuster-circulating-accurate-information-regarding-coronavirus-through-games-1887382">news coverage</a> and an acknowledgement in the official <a href="https://corona.gov.bd/websites">Bangladesh Government website</a>. However, having such a high amount of traffic comes with it&rsquo;s own set of challenges. I&rsquo;ve had previous experience developing production systems, but those were mainly Bots, Business integrations and CMS sites which don&rsquo;t receive a fraction of the traffic this had.</p>
-
-<p>This article is a series of lessons I learnt throughout the development and maintenance of coronainbangladesh. While reading, do keep in mind this guide is meant for novices.<br />
+        <p>Last month we launched our website <a href="https://coronainbangladesh.com/">coronainbangladesh</a>. In the span of a month, we&rsquo;ve received over 50,000 visitors, <a href="https://www.thedailystar.net/toggle/news/mythbuster-circulating-accurate-information-regarding-coronavirus-through-games-1887382">news coverage</a> and an acknowledgement in the official <a href="https://corona.gov.bd/websites">Bangladesh Government website</a>. However, having such a high amount of traffic comes with it&rsquo;s own set of challenges. I&rsquo;ve had previous experience developing production systems, but those were mainly Bots, Business integrations and CMS sites which don&rsquo;t receive a fraction of the traffic this had.</p>
+<p>This article is a series of lessons I learnt throughout the development and maintenance of coronainbangladesh. While reading, do keep in mind this guide is meant for novices.<br>
 So let&rsquo;s begin</p>
-
-<h5 id="lesson-1-if-you-don-t-have-previous-experience-use-a-platform-as-a-service">Lesson #1 - If you don&rsquo;t have previous experience, use a Platform as a Service</h5>
-
-<p><img src="https://tasinishmam.com/images/coronainbangladesh/paas.png#center" alt="image" />
+<h5 id="lesson-1---if-you-dont-have-previous-experience-use-a-platform-as-a-service">Lesson #1 - If you don&rsquo;t have previous experience, use a Platform as a Service</h5>
+<p><img src="https://tasinishmam.com/images/coronainbangladesh/paas.png#center" alt="image"></p>
 <div align="center">
-  <font size="-4"> <a href="https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/">Paas Vs IaaS vs On-Premise</a> </font>
+  <font size="-4"> [Paas Vs IaaS vs On-Premise](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/) </font>
 </div>
-If you&rsquo;re a beginner and don&rsquo;t know what&rsquo;s the best way to get your code into a live production server, using a PaaS offering like <a href="https://dashboard.heroku.com/">Heroku</a> or <a href="https://cloud.google.com/appengine">Google App Engine</a> will make things  <em>much</em> easier. These platforms are &ldquo;fully managed&rdquo;  meaning they do much of the heavy lifting for you. They come built in with features like</p>
-
+If you're a beginner and don't know what's the best way to get your code into a live production server, using a PaaS offering like [Heroku](https://dashboard.heroku.com/) or [Google App Engine](https://cloud.google.com/appengine) will make things  *much* easier. These platforms are "fully managed"  meaning they do much of the heavy lifting for you. They come built in with features like   
 <ul>
 <li>Simplified deployments - Deploy with just one command and with zero downtime</li>
 <li>Automatic scaling - Platform scales your app on the fly depending on the amount of traffic</li>
 <li>Multiple deployment slots - Test your code in a &ldquo;production&rdquo; environment before exposing it to the the public</li>
 </ul>
-
 <p>Now PaaS aren&rsquo;t a silver bullet, they have their own set of problems. They usually cost more and aren&rsquo;t as easily customizable and flexible as a conventional Virtual Machine. However, they can serve as a really useful set of training wheels when you&rsquo;re still learning the ropes.</p>
-
-<h5 id="lesson-2-code-like-you-re-being-attacked-because-you-probably-are">Lesson #2 - Code like you&rsquo;re being attacked (because you probably are)</h5>
-
+<h5 id="lesson-2---code-like-youre-being-attacked-because-you-probably-are">Lesson #2 - Code like you&rsquo;re being attacked (because you probably are)</h5>
 <p>The first time we got DDoS&rsquo;d was on day 5. I have no idea why anyone would want to attack something as benign as a our website, but there it was. The chances of your website being attacked or exploited increases with the amount of traffic it receives. So security should be a first priority from the very beginning of development, not something done as an afterthought.</p>
-
 <p>First start with the basics - Securing your API endpoints, use SSL, hash all user passwords, turning on CORS etc. You can find great framework specific security best practices all over the internet. Go through them before going to production.
 We followed <a href="https://expressjs.com/en/advanced/best-practice-security.html">this checklist</a> on the express official website.</p>
-
-<h5 id="lesson-3-constantly-monitor-your-server-resources">Lesson #3 - Constantly monitor your server resources</h5>
-
+<h5 id="lesson-3---constantly-monitor-your-server-resources">Lesson #3 - Constantly monitor your server resources</h5>
 <p>Keep an eye out for how much Memory, CPU, Bandwidth your system is consuming. These metrics are an important indicator of the overall health of your system. Anomalies in any of these can be due to bugs, memory leaks or other performance issues. This can also give you an idea about resource utilization and help you decide to scale up or down a specific resouce. If you&rsquo;re using any modern cloud provider, then a lot of these monitoring tools should come built in.</p>
-
 <p>Additionally, make sure to clean up any resource after you&rsquo;re done using it. Otherwise you might find a nasty surprise waiting for you in your monthly bill. At one point I forgot to disconnect from the database when I was closing my server instances. In the end we had about 300 concurrent connections to our database server just from my development computer&hellip;.<em>yikes</em></p>
-
-<h5 id="lesson-4-keep-the-scope-of-your-project-in-mind">Lesson #4 - Keep the scope of your project in mind</h5>
-
+<h5 id="lesson-4---keep-the-scope-of-your-project-in-mind">Lesson #4 - Keep the scope of your project in mind</h5>
 <p>Decision you make should always consider the scope and scale of your project. Just because something make&rsquo;s sense for Amazon does not mean it will also make sense for you. There is no one size fits all solution in software development. Over engineering can cause significant losses in time, money and resources.</p>
-
 <p>In our case, when we needed to add a cache, everyone unanimously decided we should use redis. There wasn&rsquo;t any real thought behind it, it&rsquo;s just what we had all read on the internet. However, for our use case depolying a full fledged redis server was complete and utter overkill. It was costing us more than our web and database server combined and we weren&rsquo;t even using it to 1% of it&rsquo;s full capacity/bandwidth. A few days later, we decided to ditch it completely and just use a super simple in-memory caching library from npm. This worked perfectly, was easier to use and it was <em>completely free</em>.</p>
-
-<h5 id="lesson-5-test-test-and-test-some-more">Lesson #5 - Test, Test and Test some more</h5>
-
+<h5 id="lesson-5---test-test-and-test-some-more">Lesson #5 - Test, Test and Test some more</h5>
 <p>I&rsquo;l start with a confession, I don&rsquo;t like writing tests. It&rsquo;s painstaking, repetitive and utterly boring. So naturally, I didn&rsquo;t write any tests when we launched our website. And I got screwed. Weird bugs were popping up, dependencies were breaking and these problems manifested themselves in the most unsuspecting of ways. The source of the bug is never in the first place you look. I had to spend hours chasing down trivial issues that would have been immediately apparent if we had a comprehensive test suite.</p>
-
 <p>I understand you&rsquo;re working with limited time and resources. But you will soon realize that, writing tests actually saves you time in the long run. It&rsquo;s an investment that ends up paying massive dividends. But if you really don&rsquo;t have time to write a comprehensive test suite,  prioritize and start with API (Component) testing. This is the easiest way to write and provides more coverage than unit testing (you may even craft API tests without code using tools like <a href="https://blog.postman.com/writing-tests-in-postman//">Postman</a>).</p>
-
 <h5 id="conclusion">Conclusion</h5>
-
 <p>When you&rsquo;re trying to deploy your first website, it can feel quite overwhelming. There&rsquo;s dozens of things you have to do perfectly. Worst of all, everyone kind of assumes that you already know all of this. I just want you to know that feeling is totally normal. You will make mistakes, but you&rsquo;l also have the opportunity to learn from those mistakes.</p>
-
 <p>People learn best from experience. So want to become a better developer? Go out there and make beautiful random things. See them break, and then fix them. It&rsquo;s a brave new world!</p>
-
 <p>If you have any questions, feel free to contact me at <a href="mailto:tasinishmam@gmail.com">tasinishmam@gmail.com</a></p>
-
 <!-- 
 https://hackernoon.com/lessons-learned-a-year-of-going-fully-serverless-in-production-3d7e0d72213f
 
@@ -209,7 +185,8 @@ https://www.freecodecamp.org/news/lessons-learned-from-deploying-my-first-full-s
 
 https://read.acloud.guru/six-months-of-serverless-lessons-learned-f6da86a73526
 
-Todo - Add a nice logo type thing (eg - 5 lessons from first production website with coronainbangladesh logoz) -->
+Todo - Add a nice logo type thing (eg - 5 lessons from first production website with coronainbangladesh logoz) --><blockquote>
+</blockquote>
 
       </div>
 
