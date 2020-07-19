@@ -101,9 +101,8 @@ Description: We&amp;rsquo;re trying to improve existing technologies for 3D obje
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tasinishmam.com/resume/</guid>
-      <description>h5 { line-height: .1em; }  Undergraduate student with backend Web &amp;amp; Android Development experience. Interested in Machine Learning &amp;amp; Software Engineering.
-  Skills    Languages: Python, Javascript, Java, C++ Frameworks: Pytorch, Keras, NodeJS (Express) Tools: Git, Docker, Bash, Unit Testing (Mocha, Pytest) Platforms: Azure, Facebook Developer Platform, Heroku, Google Cloud Platform    Education   Bangladesh University of Engineering and Technology
-B.Sc in Computer Science &amp;amp; Engineering</description>
+      <description>h5 { line-height: .1em; } #resume-table { text-align:center; width:100% ; table-layout: auto; font-size: 0.7em; font-weight: bold} .info_td { border:0px solid black; width:33%; padding: 0px; } .icon_resume { width: 2rem; height: 2rem; }  Undergraduate student with backend Web &amp;amp; Android Development experience. Interested in Machine Learning &amp;amp; Software Engineering.
+      Dhaka, Bangladesh tasinishmam@gmail.com +8801708656538     Skills    Languages: Python, Javascript, Java, C++ Frameworks: Pytorch, Keras, NodeJS (Express) Tools: Git, Docker, Bash, Unit Testing (Mocha, Pytest) Platforms: Azure, Facebook Developer Platform, Heroku, Google Cloud Platform    Education   Bangladesh University of Engineering and Technology</description>
     </item>
     
   </channel>
