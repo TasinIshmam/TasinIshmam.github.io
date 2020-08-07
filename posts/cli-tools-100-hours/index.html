@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Tasin Ishmam">
+    <meta name="description" content="Looking back at some of the lessons we learned while building and deploying coronainbangladesh.com">
+    <meta name="keywords" content="blog,developer,personal,software,technology,machine-learning,deep-learning">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Productivity Boosting Command Line tools"/>
+<meta name="twitter:description" content="Looking back at some of the lessons we learned while building and deploying coronainbangladesh.com"/>
+
+           <meta property="og:type" content="website" />
+          <meta property="og:title" content="Productivity Boosting Command Line tools &middot; Tasin Ishmam"/>
+          <meta property="og:description" content="Looking back at some of the lessons we learned while building and deploying coronainbangladesh.com"/>
+          <meta property="og:site_name" content="Tasin Ishmam"/>
+          <meta property="og:url" content="https://tasinishmam.com/posts/cli-tools-100-hours/"/>
+          <meta property="og:locale" content="en">
+            
+          <meta property="og:image" content="http://tasinishmam.com/images/commandlinetools/banner.png"/>
+          <meta property="og:image:secure_url" content="https://tasinishmam.com/images/commandlinetools/banner.png"/>
+            
+          <meta property="og:type" content="website"/>
+    
+      <base href="https://tasinishmam.com/posts/cli-tools-100-hours/">
+    
+    <title>
+  Productivity Boosting Command Line tools · Tasin Ishmam
+</title>
+
+    
+      <link rel="canonical" href="https://tasinishmam.com/posts/cli-tools-100-hours/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://tasinishmam.com/css/coder.min.387b50b5120466782c94020a02289feb9d78d33a70883d92bf30dd27a01e402b.css" integrity="sha256-OHtQtRIEZngslAIKAiif65140zpwiD2SvzDdJ6AeQCs=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://tasinishmam.com/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://tasinishmam.com/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.74.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://tasinishmam.com/">
+      Tasin Ishmam
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://tasinishmam.com/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://tasinishmam.com/projects/">Projects</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://tasinishmam.com/resume/">Resume</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://tasinishmam.com/about/">About</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Productivity Boosting Command Line tools</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2020-08-07T00:00:00&#43;06:00'>
+                August 7, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              3-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://tasinishmam.com/tags/terminal/">terminal</a>
+      <span class="separator">•</span>
+    <a href="https://tasinishmam.com/tags/cli/">cli</a>
+      <span class="separator">•</span>
+    <a href="https://tasinishmam.com/tags/unix/">unix</a>
+      <span class="separator">•</span>
+    <a href="https://tasinishmam.com/tags/productivity/">productivity</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+          <img src='https://tasinishmam.com/images/commandlinetools/banner.png' alt="Featured image"/>
+        
+        <p>If you&rsquo;re on a Unix system you probably have to constantly interact with the terminal, one or or another. So, the more you can optimize and streamline your terminal workflow, the more efficiently you can get your work done. So, let&rsquo;s look at some great command line tools that can boost your productivity and save time in your work.</p>
+<h2 id="1-zshhttpsgithubcomrupaz">1. <a href="https://github.com/rupa/z">z.sh</a></h2>
+<p>Z is a command line tool that allows you to jump quickly to directories that you have visited frequently in the past, or recently &ndash; but most often a combination of the two (a concept known as &ldquo;frecency&rdquo;). It works by keeping track of when you go to directories and how much time you spend in them. It is then in the position to guess where you want to go when you type a partial string, e.g. <code>z src</code> might take you to <code>~/src/zsh</code>.</p>
+<p><strong>Use case</strong>:</p>
+<ul>
+<li>Quickly going to the right directory in your local machine.</li>
+</ul>
+<p><img src="https://tasinishmam.com/images/commandlinetools/z.gif#center" alt="image"></p>
+<h2 id="2-tmuxhttpsgithubcomtmuxtmux">2. <a href="https://github.com/tmux/tmux">tmux</a></h2>
+<p>Tmux is a terminal multiplexer: Essentially this means that tmux lets you tile window panes in a command-line environment. This way, you can run and track multiple programs from the same terminal, saving you the hassle of constantly having to shift terminal windows. Tmux also lets you &ldquo;detach&rdquo; your terminal sessions and get back to them later without the session being interrupted, a lifesaver for long running server tasks.</p>
+<p><strong>Use Cases</strong>:</p>
+<ul>
+<li>Easily traverse multiple command line windows</li>
+<li>Keep a terminal session or task alive for a long time without keeping your computer open.</li>
+<li>Easily manage tasks on a remote server</li>
+</ul>
+<p><img src="https://tasinishmam.com/images/commandlinetools/tmux.gif#center" alt="image"></p>
+<h2 id="3-tldrhttpsgithubcomtldr-pagestldr">3. <a href="https://github.com/tldr-pages/tldr">tldr</a></h2>
+<p>tldr is an attempt to simplify verbose &amp; lengthy <a href="https://en.wikipedia.org/wiki/Man_page">man pages</a> for common unix commands and tools. tldr pages are simple, approachable and prioritizes the common use cases. This makes tldr ideal to quickly get an idea about any new command.</p>
+<p>Let&rsquo;s look at an example. Want to know how to do a <code>grep</code> in case insensitive mode? tldr it!</p>
+<p><img src="https://tasinishmam.com/images/commandlinetools/tldr.gif#center" alt="image"></p>
+<h2 id="4-fzfhttpsgithubcomjunegunnfzf">4. <a href="https://github.com/junegunn/fzf">fzf</a></h2>
+<p>fzf is a fuzzy text finder for pretty much anything in your system. fzf can help you find files in your computer, previous commands in your shell history, results from a search or anything else. fzf is incredibly flexible because it supports searching through the results of any other unix command. All you need to do is pipe the results to fzf. Eg - <code>ls | fzf</code>. <a href="https://www.youtube.com/watch?v=qgG5Jhi_Els">This video</a> does a great job in explaining all the cool things you can do with fzf.</p>
+<p><strong>Use Cases:</strong></p>
+<ul>
+<li>Search for files in your system or in a directory</li>
+<li>Search through results of another command like <code>ls</code> or <code>grep</code></li>
+</ul>
+<p><img src="https://tasinishmam.com/images/commandlinetools/fzf.gif#center" alt="image"></p>
+<h2 id="5-how2httpsgithubcomsantinichow2">5. <a href="https://github.com/santinic/how2">how2</a></h2>
+<p>Branded as &ldquo;stackoverflow for the terminal&rdquo;, how2 finds the simplest way to do something in a unix shell. It&rsquo;s like man, but you can query it in natural language. Using Stackoverflow and Google API, how2 immediately gives you the most likely answer. You can also go into the interactive mode and search through all the results.</p>
+<p><strong>Use Cases:</strong></p>
+<ul>
+<li>Quickly find a code snippet to execute a shell task</li>
+<li>Find code snippets for common problem in programming language of choice.</li>
+</ul>
+<p><img src="https://tasinishmam.com/images/commandlinetools/fzf.gif#center" alt="image"></p>
+<h3 id="conclusion">Conclusion</h3>
+<p>These are the five tools that I felt have saved me a ton of time in doing my work as a developer. They&rsquo;re also general purpose enough to be utilized and enjoyed by a wide range of professionals and hobbyists. What unix programs has been the most helpful in your experience? Feel free to share your favorites with me!</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<ul>
+<li>This article was inspired by the post: <a href="https://news.ycombinator.com/item?id=22849208">Ask HN: Programs that saved you 100 hours?</a> on Hacker News.</li>
+<li>The credits for the gifs belong to their respective creators.</li>
+</ul>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+</section>
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-148831161-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+
+  </body>
+
+</html>

@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tasinishmam.com/tags/cli/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/series/cli/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/posts/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/productivity/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/posts/cli-tools-100-hours/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/series/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/terminal/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/tags/unix/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tasinishmam.com/series/unix/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tasinishmam.com/tags/coding/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
   </url>
@@ -23,27 +78,12 @@
   </url>
   
   <url>
-    <loc>https://tasinishmam.com/posts/</loc>
-    <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tasinishmam.com/tags/problem-solving/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://tasinishmam.com/tags/python/</loc>
-    <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/tags/</loc>
-    <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
   </url>
   
@@ -156,10 +196,6 @@
   
   <url>
     <loc>https://tasinishmam.com/resume/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/series/</loc>
   </url>
   
 </urlset>
