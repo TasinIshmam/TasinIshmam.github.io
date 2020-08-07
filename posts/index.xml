@@ -13,10 +13,10 @@
     
     <item>
       <title>Productivity Boosting Command Line tools</title>
-      <link>https://tasinishmam.com/posts/cli-tools-100-hours/</link>
+      <link>https://tasinishmam.com/posts/productivity-boosting-cli-tools/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0600</pubDate>
       
-      <guid>https://tasinishmam.com/posts/cli-tools-100-hours/</guid>
+      <guid>https://tasinishmam.com/posts/productivity-boosting-cli-tools/</guid>
       <description>If you&amp;rsquo;re on a Unix system you probably have to constantly interact with the terminal, one or or another. So, the more you can optimize and streamline your terminal workflow, the more efficiently you can get your work done. So, let&amp;rsquo;s look at some great command line tools that can boost your productivity and save time in your work.
 1. z.sh Z is a command line tool that allows you to jump quickly to directories that you have visited frequently in the past, or recently &amp;ndash; but most often a combination of the two (a concept known as &amp;ldquo;frecency&amp;rdquo;).</description>
     </item>
