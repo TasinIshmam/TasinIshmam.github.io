@@ -6,11 +6,7 @@
     <description>Recent content on Tasin Ishmam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2020 15:40:13 +0600</lastBuildDate>
-    
-	<atom:link href="https://tasinishmam.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0600</lastBuildDate><atom:link href="https://tasinishmam.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awesome Command-Line tools to boost your productivity</title>
       <link>https://tasinishmam.com/posts/productivity-boosting-cli-tools/</link>
@@ -111,8 +107,7 @@ Description: We&amp;rsquo;re trying to improve existing technologies for 3D obje
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tasinishmam.com/resume/</guid>
-      <description>h5 { line-height: .1em; } #resume-table { text-align:center; width:100% ; table-layout: auto; font-size: 0.65em; font-weight: normal} .info_td { border:0px solid black; width:33%; padding: 0px 0.3em; } #location_td { line-height: 100% } .icon_resume { width: 2rem; height: 2rem; }  Undergraduate student with backend Web &amp;amp; Android Development experience. Interested in Machine Learning &amp;amp; Software Engineering.
-      Dhaka, Bangladesh tasinishmam@gmail.com +8801708656538     Skills    Languages: Python, Javascript, Typescript, Java, C++ Frameworks: Pytorch, Keras, NodeJS (Express), Hyperledger Fabric Tools: Git, Docker, Bash, Unit Testing (Mocha, Pytest) Platforms: Azure, Facebook Developer Platform, Heroku, Google Cloud Platform    Education   Bangladesh University of Engineering and Technology</description>
+      <description>h5 { line-height: .1em; } #resume-table { text-align:center; width:100% ; table-layout: auto; font-size: 0.65em; font-weight: normal} .info_td { border:0px solid black; width:33%; padding: 0px 0.3em; } #location_td { line-height: 100% } .icon_resume { width: 2rem; height: 2rem; }  Undergraduate student with professional software engineering and research experience. Interested in Machine Learning &amp;amp; Cloud Computing.     Dhaka, Bangladesh tasinishmam@gmail.com     Skills    Languages: Python, Javascript, Typescript, Java, C++ Frameworks: Pytorch, Keras, NodeJS (Express), Hyperledger Fabric Database: MongoDB, PostgreSQL, Redis Tools: Git, Docker, Bash, Unit Testing (Mocha, Pytest) Platforms: Azure, Facebook Developer Platform, Heroku, Google Cloud Platform, Firebase    Education   Bangladesh University of Engineering and Technology</description>
     </item>
     
   </channel>

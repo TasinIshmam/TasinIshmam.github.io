@@ -6,11 +6,7 @@
     <description>Recent content in unix on Tasin Ishmam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0600</lastBuildDate>
-    
-	<atom:link href="https://tasinishmam.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0600</lastBuildDate><atom:link href="https://tasinishmam.com/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awesome Command-Line tools to boost your productivity</title>
       <link>https://tasinishmam.com/posts/productivity-boosting-cli-tools/</link>

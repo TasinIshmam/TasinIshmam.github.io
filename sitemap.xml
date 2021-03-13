@@ -1,201 +1,121 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://tasinishmam.com/posts/productivity-boosting-cli-tools/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/cli/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/series/cli/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/posts/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/productivity/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/series/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://tasinishmam.com/</loc>
+    <lastmod>2020-08-07T00:00:00+06:00</lastmod>
+  </url><url>
     <loc>https://tasinishmam.com/tags/terminal/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/unix/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/series/unix/</loc>
     <lastmod>2020-08-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/coding/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/foobar/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/google/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/posts/google-foobar-challenge/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/problem-solving/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/python/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/web/</loc>
     <lastmod>2020-06-07T00:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/advice/</loc>
     <lastmod>2020-04-28T16:00:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/backend/</loc>
     <lastmod>2020-04-28T16:00:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/coronainbangladesh/</loc>
     <lastmod>2020-04-28T16:00:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/express/</loc>
     <lastmod>2020-04-28T16:00:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/posts/five-lessons-from-first-public-website/</loc>
     <lastmod>2020-04-28T16:00:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/google-cloud/</loc>
     <lastmod>2020-04-28T16:00:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/heroku/</loc>
     <lastmod>2020-04-28T16:00:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/node/</loc>
     <lastmod>2020-04-28T16:00:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/bangladesh/</loc>
     <lastmod>2020-03-22T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/coronavirus/</loc>
     <lastmod>2020-03-22T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/covid-19/</loc>
     <lastmod>2020-03-22T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/posts/coronainbangladesh-launch/</loc>
     <lastmod>2020-03-22T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/pandemic/</loc>
     <lastmod>2020-03-22T21:00:00+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/coronavirus-information-bot-privacy-policy/</loc>
     <lastmod>2020-03-16T15:40:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/posts/coronavirus-resouces/</loc>
     <lastmod>2020-03-16T15:40:13+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tasinishmam.com/</loc>
-    <lastmod>2020-03-16T15:40:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/posts/first-contact/</loc>
     <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/hugo/</loc>
     <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/tags/personal/</loc>
     <lastmod>2019-09-18T10:46:13+06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/projects/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tasinishmam.com/resume/</loc>
   </url>
-  
 </urlset>
